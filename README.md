@@ -23,13 +23,13 @@ Investment funds often exhibit similar behavior or structure, but they may diffe
 
 ## Project Structure
 
-fund-substitution-recommender
-├── utils/
-│   └── preprocess\_dataset.py
-├── app.py
-├── clusterized\_funds.csv
-├── requirements.txt
-└── README.md
+Fund-Substitution-Recommender-System/
+├── 01_fund_clustering.ipynb        # Main notebook with UMAP, clustering, and recommendations
+├── fondos_sustitutivos.py          # Fund substitution logic (originally part of the app)
+├── preprocess_dataset.py           # Data loading and preprocessing function
+├── requirements.txt                # Python dependencies
+└── README.md                       # Project overview and usage instructions
+
 
 Note: Some data files (e.g., navs.pickle, maestro.csv, MSCI.csv) are not included due to licensing or privacy concerns.
 
